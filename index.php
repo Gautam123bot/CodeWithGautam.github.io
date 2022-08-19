@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index page</title>
+    <title>Gautam Kumar | Portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css.bootstrap.min.css">
     <script src="js/bootstrap.js"></script>
@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="tabletmode.css">
     <link rel="stylesheet" href="mobilemode.css">
     <script src="app.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/profile_photo.jpeg">
 </head>
 
 <body>
