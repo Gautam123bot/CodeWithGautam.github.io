@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css.bootstrap.min.css">
     <script src="js/bootstrap.js"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="laptopmode.css">
+    <link rel="stylesheet" href="tabletmode.css">
+    <link rel="stylesheet" href="mobilemode.css">
     <script src="app.js"></script>
 </head>
 
