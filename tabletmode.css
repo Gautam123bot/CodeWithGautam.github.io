@@ -2,4 +2,20 @@
     .main-section img{
         max-width: 20%;
     }
+    .main-section {
+        max-width: 800px;
+        padding: 20px;
+        margin-top: 60px !important;
+    }
+    .hey_there {
+        margin-top: 45px !important;
+        color: #01f7ce8d;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+        word-spacing: 1px;
+        letter-spacing: 1px;
+    }
 }

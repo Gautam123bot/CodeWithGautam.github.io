@@ -63,29 +63,35 @@
     transform: rotate(0);
     background-color: rgb(164, 210, 255);
 }
-.main-navbar{
+
+.main-navbar {
     max-width: 800px;
     display: block;
     margin: 0 auto;
 }
+
 /* ------------------------- End of header.php ------------------------- */
 
-body{
+body {
     background: rgb(23, 23, 34);
 }
+
 .main-section {
     max-width: 800px;
     padding: 20px;
     margin-top: 150px;
 }
-.main-section img{
+
+.main-section img {
+    margin-left: 5px;
     max-width: 15%;
     outline: 6px solid #00d8a6a1;
     border-radius: 50%;
     border: 1px solid #ffe2e2;
     outline-offset: 5px;
 }
-.hey_there{
+
+.hey_there {
     margin-top: 70px !important;
     color: #01f7ce8d;
     text-transform: uppercase;
@@ -96,7 +102,8 @@ body{
     word-spacing: 1px;
     letter-spacing: 1px;
 }
-.iamgautam{
+
+.iamgautam {
     font-weight: bold;
     font-size: 50px;
     color: white;
@@ -104,31 +111,80 @@ body{
     font-family: 'Arvo', serif;
     word-spacing: 2px;
 }
-.iamfullpara{
+
+.iamfullpara {
     color: rgb(207, 207, 207);
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     word-spacing: 1px;
 }
 
-.left-navbar-content{
+.left-navbar-content {
     color: whitesmoke;
     font-size: 27px;
     font-family: 'Secular One', sans-serif;
     word-spacing: 1px;
 }
-.left-navbar-content:hover{
+
+.left-navbar-content:hover {
     color: #00ffd58d;
 }
-.right-navbar-content{
+
+.right-navbar-content {
     flex-direction: row-reverse;
 }
-.right-navbar-content a{
+
+.right-navbar-content a {
     color: whitesmoke;
     font-size: 18px;
     font-family: 'montserrat', sans-serif;
     margin-left: 12px;
 }
-.right-navbar-content a:hover{
+
+.right-navbar-content a:hover {
     color: #00ffd58d;
+}
+
+.resumebtn {
+    padding: 0;
+    border: none;
+    height: 62px;
+    margin-top: 40px;
+    background-color: white;
+    background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
+    animation: gradient 12s linear infinite;
+    background-size: 400%;
+    transition: all 0.4s ease-in-out;
+    border-radius: 1px;
+}
+.resumebtn:hover{
+    border-radius: 40px;
+}
+/* @keyframes gradient {
+	0% {
+		background-position: 0;
+	}
+	100% {
+		background-position: 400%;
+	}
+} */
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+    50%{
+        background-position: 100% 50%;
+    }
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.resumebtn a {
+    color: black;
+    text-decoration: none;
+    font-size: 21px;
+    font-family: 'raleway', sans-serif;
+    padding: 26px 40px;
+    font-weight: bolder;
 }

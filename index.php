@@ -31,13 +31,19 @@
                     <img src="img/profile_photo.jpeg" alt="" class="img-responsive">
                     <p class="hey_there">Hey There,</p>
                     <p class="iamgautam">I'm Gautam.</p>
-                    <p class="iamfullpara">I,m a full stack developer with a passion for everything front-end. Welcome to my corner of the internet. I,m glad you're here!</p>
+                    <p class="iamfullpara">I,m a full stack developer with a passion for everything front-end. Welcome
+                        to my corner of the internet. I,m glad you're here!</p>
                 </div>
             </div>
+            <button class="resumebtn"><a onclick="openTab(this)" href="#" name="PDF/codewithgautamresume.pdf">Download
+                    CV</a></button>
+            <script type="text/javascript">
+            function openTab(th) {
+                window.open(th.name, '_blank');
+            }
+            </script>
         </div>
     </section>
-
-
 
 
     <?php include 'footer.php'; ?>
