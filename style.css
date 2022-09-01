@@ -79,7 +79,7 @@ body {
 .main-section {
     max-width: 800px;
     padding: 20px;
-    margin-top: 150px;
+    margin-top: 80px;
 }
 
 .main-section img {
@@ -148,7 +148,7 @@ body {
 .resumebtn {
     padding: 0;
     border: none;
-    height: 62px;
+    height: 52px;
     margin-top: 40px;
     background-color: white;
     background: linear-gradient(-45deg, #FFA63D, #FF3D77, #338AFF, #3CF0C5);
@@ -156,10 +156,15 @@ body {
     background-size: 400%;
     transition: all 0.4s ease-in-out;
     border-radius: 1px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
 }
-.resumebtn:hover{
+
+.resumebtn:hover {
     border-radius: 40px;
 }
+
 /* @keyframes gradient {
 	0% {
 		background-position: 0;
@@ -169,22 +174,99 @@ body {
 	}
 } */
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-    50%{
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
         background-position: 100% 50%;
     }
-	100% {
-		background-position: 0% 50%;
-	}
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .resumebtn a {
     color: black;
     text-decoration: none;
-    font-size: 21px;
-    font-family: 'raleway', sans-serif;
-    padding: 26px 40px;
+    font-size: 15px;
+    font-family: 'montserrat', sans-serif;
+    letter-spacing: 1px;
+    padding: 20px 31px;
     font-weight: bolder;
+    text-transform: uppercase;
 }
+
+/* .wave1{
+    position: relative;
+    bottom: 170px;
+}
+.wave2{
+    position: relative;
+    bottom: 190px;
+} */
+
+
+
+
+
+
+
+/* 
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background:radial-gradient(ellipse at center, rgba(255,254,234,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%);
+    overflow: hidden;
+}
+
+.ocean {
+    height: 5%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #015871;
+}
+
+.wave {
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/85486/wave.svg) repeat-x;
+    position: absolute;
+    top: -198px;
+    width: 6400px;
+    height: 198px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+    transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+    top: -175px;
+    animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+    opacity: 1;
+}
+
+@keyframes wave {
+    0% {
+        margin-left: 0;
+    }
+
+    100% {
+        margin-left: -1600px;
+    }
+}
+
+@keyframes swell {
+
+    0%,
+    100% {
+        transform: translate3d(0, -25px, 0);
+    }
+
+    50% {
+        transform: translate3d(0, 5px, 0);
+    }
+} */
